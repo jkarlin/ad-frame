@@ -6,7 +6,7 @@ APIs (e.g., [FeaturePolicy](https://github.com/WICG/feature-policy), [TransferSi
 
 Many sites will need a frame policy that governs the page's advertisements. How much data should ads use? How much CPU is too much? When should an ad be able to navigate the top frame? These are questions that are difficult to answer on a site-by-site basis, but when collectively agreed upon as a web standard, can help to bring about a reasonable and predictable experience to the entire ads ecosystem. 
 
-With a standard ads policy (called the AdFrame policy), users, publishers, and ad networks will know what to expect. Publishers can take comfort in knowing that the ads on their page won't ruin the page experience. Users can relax knowing that the ads aren't using egregious battery, CPU, or mobile data. Finally, advertisers will be prepared to serve ads that meet the standard.
+With a standard ads policy (called the AdFrame policy), users, publishers, and ad networks will know what to expect. Publishers can take comfort in knowing that the ads on their page won't ruin the page experience. Users can relax knowing that the ads aren't using egregious battery, CPU, or mobile data. Finally, advertisers will be aware of the constraints, so they can pull in the long tail of heavy ads and only serve compliant ones.
 
 To apply the AdFrame policy, web developers will simply need to label frames (via attributes or response headers) as ads and the browser will take care of applying and enforcing the AdFrame policy. Examples are provided below.
 
